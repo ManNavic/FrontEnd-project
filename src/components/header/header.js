@@ -10,7 +10,7 @@ const Header = () => {
       <ul className="header">
         <li className='logo-grid'>
             <img src={Logo} className='logo' alt='logo'/>
-            <div>
+            <div className='logo-text-container'>
                 <p className='logo-text'>RIMOS PRODUKTAI</p>
                 <p className='logo-text'>Šventėms ir jūsų stalui</p>
             </div>
