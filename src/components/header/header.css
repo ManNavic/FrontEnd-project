@@ -1,0 +1,48 @@
+  .logo{
+    height: 80px;
+    width: 120px;
+  }
+  .logo-grid{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+  }
+  .logo-text{
+    color: black;
+    font-size: 17px;
+  }
+  
+  .header {
+    background-color: #fff0dd;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14%, 1fr));
+    grid-gap: 10px;
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+  .Nav-button{
+    display: grid;
+    align-items: center;
+    font-size: 20px;
+    background-color: #f1e4d2a9;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    width: 90%;
+    height: 70px;
+    text-decoration: none;
+    color: black;
+  }
+  .Nav-button.active{
+    color: rgb(183, 122, 122);
+    background-color: #dccdb8a9;
+  }
+  ul{
+    list-style-type: none;
+  }
+
