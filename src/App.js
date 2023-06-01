@@ -1,31 +1,40 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/header/header';
-import Main from './components/main/main';
-import Footer from './components/footer/footer'
-import AboutUs from './components/about/about';
-import Menu from './components/menu/menu'
-// import OurServices from './components/ourServices/ourServices';
-// import Contacts from './components/contacts/contacts';
-
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from '/Users/mantas/Desktop/Boolean/React/project/src/components/header/header';
+import Main from '/Users/mantas/Desktop/Boolean/React/project/src/components/main/main';
+import Login from '/Users/mantas/Desktop/Boolean/React/project/src/components/Login/Login';
 import './App.css';
-import './components/header/header.css'
+import AboutUs from '/Users/mantas/Desktop/Boolean/React/project/src/components/about/about'
+import Menu from '/Users/mantas/Desktop/Boolean/React/project/src/components/menu/menu'
+import Footer from '/Users/mantas/Desktop/Boolean/React/project/src/components/footer/footer'
 
 function App() {
+  const [isLoggedIn, setLoggedIn] = useState(false);
+
+  const handleLogin = () => {
+    setLoggedIn(true);
+  };
+
+  const handleLogout = () => {
+    setLoggedIn(false);
+  };
+
   return (
-    <BrowserRouter>
+    <Router>
       <div className="App">
-        <Header />
+        <Header isLoggedIn={isLoggedIn} onLogout={handleLogout} />
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/menu" element={<Menu />} />
-          {/* <Route path="/our-services" element={<OurServices />} />
-          <Route path="/contacts" element={<Contacts />} /> */}
+          <Route path="/menu" element={<Menu userLoggedIn={isLoggedIn} />} />
+          <Route
+            path="/login"
+            element={<Login onLogin={handleLogin} />}
+          />
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

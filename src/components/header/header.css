@@ -21,17 +21,17 @@
     background-color: #fff0dd;
     height: 100px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(12%, 1fr));
     grid-gap: 10px;
     align-items: center;
     /* justify-content: center; */
     color: white;
     padding: 0;
     margin: 0;
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    z-index: 1;
-    width: 100%;
+    z-index: 2;
+    width: 100%; */
     }
   .Nav-button{
     display: grid;

@@ -3,32 +3,32 @@
     {
       "id": 1,
       "title": "UP & AWAY BURGER",
-      "ingridiants": "California grass-fed | aged cheddar | shredded romaine | thousand island remoulade | grilled onion | tomato | brioche"
+      "ingredients": "California grass-fed | aged cheddar | shredded romaine | thousand island remoulade | grilled onion | tomato | brioche"
     },
     {
       "id": 2,
       "title": "GRILLED SHRIMP PO BOY",
-      "ingridiants": "Grilled blackened shrimp | celery slaw | spicy mayo | pickled peppers | hoagie roll"
+      "ingredients": "Grilled blackened shrimp | celery slaw | spicy mayo | pickled peppers | hoagie roll"
     },
     {
       "id": 3,
       "title": "QUINOA SWEET POTATO CAKE",
-      "ingridiants": "seasonal ratatouille | arugula salad"
+      "ingredients": "seasonal ratatouille | arugula salad"
     },
     {
       "id": 4,
       "title": "ROASTED BROCCOLI GRILLED CHEESE SANDWICH",
-      "ingridiants": "oven roasted broccoli | aged cheddar + feta cheese | roasted garlic spread | Sadie Rose multigrain bread"
+      "ingredients": "oven roasted broccoli | aged cheddar + feta cheese | roasted garlic spread | Sadie Rose multigrain bread"
     },
     {
       "id": 5,
       "title": "GREEN GODDESS BOWL",
-      "ingridiants": "sautéed rainbow chard + mushroom + sweet peppers + broccoli | ume plum vinegar | cauliflower rice | cilantro + pine nut pesto"
+      "ingredients": "sautéed rainbow chard + mushroom + sweet peppers + broccoli | ume plum vinegar | cauliflower rice | cilantro + pine nut pesto"
     },
     {
       "id": 6,
       "title": "HERBED GRILLED CHICKEN [gf] | MOJO GRILLED SHRIMP",
-      "ingridiants": "seasonal ratatouille | arugula salad"
+      "ingredients": "seasonal ratatouille | arugula salad"
     }
   ]
 }
