@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   font-family: 'CustomFont';
   src: url('/Users/mantas/Desktop/Boolean/React/final project/frontend_final_project/src/assets/fonts/snappy-dresser-font/SnappyDresserRegular-L35nG.ttf') format('truetype');
-}
+} */
 body {
   text-align: center;
   font-family: 'CustomFont', sans-serif;

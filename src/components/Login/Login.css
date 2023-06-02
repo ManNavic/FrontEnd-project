@@ -1,5 +1,31 @@
-.login-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.login-title{
+    font-size: 70px;
+    padding-left: 30px;
+    margin: 20px 20px 20px 0px;
+}
+.login-text {
+    font-size: 30px;
+    text-align: left;
+    margin-right: 10px;
+    width: 150px; 
+    
+  }
+  .login-button{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #b8afa1a9;
+    background-color: #f1e4d2a9;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    left: 45px;
+  }
+  .login-input{
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    border: 1px solid #b8afa1a9;
+    background-color: #f7f1e7;
+    border-radius: 50px;
 }

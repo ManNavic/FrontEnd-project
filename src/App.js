@@ -7,6 +7,8 @@ import './App.css';
 import AboutUs from '/Users/mantas/Desktop/Boolean/React/project/src/components/about/about'
 import Menu from '/Users/mantas/Desktop/Boolean/React/project/src/components/menu/menu'
 import Footer from '/Users/mantas/Desktop/Boolean/React/project/src/components/footer/footer'
+import Wedding from './components/wedding-qoute/wedding';
+import Event from './components/event-qoute/event';
 
 function App() {
   const [isLoggedIn, setLoggedIn] = useState(false);
@@ -31,6 +33,8 @@ function App() {
             path="/login"
             element={<Login onLogin={handleLogin} />}
           />
+          <Route path="/wedding" element={<Wedding />} />
+          <Route path="/event" element={<Event />} />
         </Routes>
         <Footer />
       </div>

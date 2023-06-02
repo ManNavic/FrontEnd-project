@@ -26,9 +26,9 @@
       "ingredients": "sautéed rainbow chard + mushroom + sweet peppers + broccoli | ume plum vinegar | cauliflower rice | cilantro + pine nut pesto"
     },
     {
-      "id": 6,
       "title": "HERBED GRILLED CHICKEN [gf] | MOJO GRILLED SHRIMP",
-      "ingredients": "seasonal ratatouille | arugula salad"
+      "ingredients": "seasonal ratatouille | arugula salad",
+      "id": 6
     }
   ]
 }

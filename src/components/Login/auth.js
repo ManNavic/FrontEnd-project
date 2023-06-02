@@ -2,12 +2,12 @@ import { useState } from 'react';
 
 let isLoggedIn = false;
 
-export const checkLoginStatus = () => {
+const checkLoginStatus = () => {
   const token = localStorage.getItem('token');
   isLoggedIn = !!token;
 };
 
-export const login = (username, password) => {
+const login = (username, password) => {
   if (username === 'admin' && password === 'password') {
     const token = generateToken();
     localStorage.setItem('token', token);
@@ -17,17 +17,21 @@ export const login = (username, password) => {
   return false;
 };
 
-export const logout = () => {
+const logout = () => {
   localStorage.removeItem('token');
   isLoggedIn = false;
 };
 
-export const generateToken = () => {
+const generateToken = () => {
   const token = Math.random().toString(36).substr(2);
   return token;
 };
 
-export const useAuth = () => {
+const isUserLoggedIn = () => {
+  return isLoggedIn;
+};
+
+const useAuth = () => {
   const [authenticated, setAuthenticated] = useState(isLoggedIn);
 
   const handleLogin = (username, password) => {
@@ -50,6 +54,12 @@ export const useAuth = () => {
   };
 };
 
-export const isUserLoggedIn = () => {
-  return isLoggedIn;
+export {
+  checkLoginStatus,
+  login,
+  logout,
+  generateToken,
+  isUserLoggedIn,
+  useAuth,
 };
+

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { login } from '/Users/mantas/Desktop/Boolean/React/project/src/components/Login/auth.js';
+import './Login.css'
 
 function Login({ onLogin }) {
   const [username, setUsername] = useState('');
@@ -9,33 +10,32 @@ function Login({ onLogin }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Call the login function to handle the login logic
     const success = login(username, password);
 
     if (success) {
-      // Call the onLogin function to update the isLoggedIn state
       onLogin();
       console.log('User logged in');
       navigate('/');
     } else {
-      // Handle invalid login credentials
       console.log('Invalid username or password');
     }
   };
 
   return (
     <div>
-      <h2>Login</h2>
+      <h2 className='login-title'>Login</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Username</label>
-          <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+          <label className='login-text'>Username</label>
+          <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} className='login-input'/>
         </div>
         <div>
-          <label>Password</label>
-          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+          <label className='login-text'>Password</label>
+          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className='login-input' />
         </div>
-        <button type="submit">Submit</button>
+        <div className='.login-button-container'>
+          <button type="submit" className='login-button'>Submit</button>
+        </div>
       </form>
     </div>
   );

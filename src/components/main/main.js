@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './main.css';
 import Cover_Img from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/background_main.png';
 import FoodImg2 from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/food-2.png';
+import FoodImg3 from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/newfood.png'
 
 function Main() {
   return (
@@ -33,6 +34,16 @@ function Main() {
         <div>
           <img src={FoodImg2} className="food-img-2" alt="food" />
         </div>
+      </div>
+      <div className="main-text-container">
+        <div>
+          <img src={FoodImg3} className="food-img-2" alt="food" />
+        </div>
+        <div>
+          <h3 className="main-text-title">New's in the MENU</h3>
+          <p className="main-text-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, fugiat.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, fugiat.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, fugiat.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, fugiat.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, fugiat.</p>
+        </div>
+        
       </div>
     </>
   );
