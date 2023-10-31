@@ -1,6 +1,6 @@
 import './about.css'
-import EventImg from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/event.png'
-import PlateImg from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/food.png'
+import EventImg from '../../assets/img/event.png'
+import PlateImg from '../../assets/img/food.png'
 const AboutUs = () =>{
     return (
         <>

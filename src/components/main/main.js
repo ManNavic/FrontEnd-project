@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './main.css';
-import Cover_Img from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/background_main.png';
-import FoodImg2 from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/food-2.png';
-import FoodImg3 from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/newfood.png'
+import Cover_Img from '../../assets/img/background_main.png';
+import FoodImg2 from '../../assets/img/food-2.png';
+import FoodImg3 from '../../assets/img/newfood.png'
 
 function Main() {
   return (

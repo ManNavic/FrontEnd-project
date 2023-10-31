@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from '/Users/mantas/Desktop/Boolean/React/project/src/components/header/header';
-import Main from '/Users/mantas/Desktop/Boolean/React/project/src/components/main/main';
-import Login from '/Users/mantas/Desktop/Boolean/React/project/src/components/Login/Login';
+import Header from './../src/components/header/header';
+import Main from './../src/components/main/main';
+import Login from './../src/components/Login/Login';
 import './App.css';
-import AboutUs from '/Users/mantas/Desktop/Boolean/React/project/src/components/about/about'
-import Menu from '/Users/mantas/Desktop/Boolean/React/project/src/components/menu/menu'
-import Footer from '/Users/mantas/Desktop/Boolean/React/project/src/components/footer/footer'
+import AboutUs from './../src/components/about/about'
+import Menu from './../src/components/menu/menu'
+import Footer from './../src/components/footer/footer'
 import Wedding from './components/wedding-qoute/wedding';
 import Event from './components/event-qoute/event';
 

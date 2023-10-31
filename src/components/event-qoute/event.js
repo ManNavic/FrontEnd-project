@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './event.css'
-import EventImg from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/event-img.png'
+import EventImg from '../../assets/img/event-img.png'
 
 const Event = () => {
   const [guestCount, setGuestCount] = useState('');

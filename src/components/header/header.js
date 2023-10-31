@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import Logo from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/logo.png';
+import Logo from '../../assets/img/logo.png';
 import './header.css';
-import { isUserLoggedIn, logout } from '/Users/mantas/Desktop/Boolean/React/project/src/components/Login/auth.js';
+import { isUserLoggedIn, logout } from '../../components/Login/auth.js';
 
 const Header = () => {
   const location = useLocation();

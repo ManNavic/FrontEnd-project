@@ -1,5 +1,5 @@
 import './footer.css'
-import Logo from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/logo-with-text.png'
+import Logo from '../../assets/img/logo-with-text.png'
 function Footer(){
     return(
         <section className='footer'>

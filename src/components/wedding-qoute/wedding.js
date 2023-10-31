@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import WeddingImg from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/wedding-table.jpeg'
+import WeddingImg from '../../assets/img/wedding-table.jpeg'
 import './wedding.css'
 
 const Wedding = () => {

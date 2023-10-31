@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { isUserLoggedIn } from '/Users/mantas/Desktop/Boolean/React/project/src/components/Login/auth.js';
-import PlateImg from '/Users/mantas/Desktop/Boolean/React/project/src/assets/img/food4.png';
+import { isUserLoggedIn } from '../../components/Login/auth.js';
+import PlateImg from '../../assets/img/food4.png';
 import './menu.css'
 
 const Menu = ({ userLoggedIn }) => {
