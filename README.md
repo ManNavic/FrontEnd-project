@@ -1,6 +1,6 @@
 # Catering Project - Frontend
 
-![Catering Logo](assets/img/project.png)
+![Catering Logo](src/assets/img/project.png)
 
 ## Overview
 
